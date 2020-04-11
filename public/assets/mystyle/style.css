@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Viga&display=swap');
+
+.jam_digital{
+		font-style: normal;
+		font-weight: 500;
+		font-family:viga;
+	}
+	
+/* form-login */
+.gambar_login{
+	background-color: #cccccc;
+}
+
+.login-box{
+	margin-top		:-540px;
+	margin-left		:auto;
+	border			:2px solid black;
+	box-shadow		:10px 10px black;
+	border-radius	:15px 15px;
+	padding			:10px;
+	background-color:#fff;
+	position		:relative;
+}
+
+.login-box-body{
+	margin-top:-35px;
+}
+
+.carousel{
+	max-height		:600px;
+}
+
+.carousel-inner .item img {
+	width :100%; 
+	height:665px;
+  
+}
+
+.carousel-caption{
+		font-size	: 24px;
+		font-family:viga;
+		margin-bottom:-20px;
+	}
+
+	
+.animate-top{
+	position:relative;
+	animation:animatetop 1.5s}@keyframes animatetop{from{top:-400px;opacity:0} to{top:0;opacity:1}
+	}
+.animate-bottom{
+	position:relative;
+	animation:animatebottom 1s}@keyframes animatebottom{from{bottom:-400px;opacity:0} to{bottom:0;opacity:1}
+	}
+/* end form-login */
+
+/*custom input */
+.custom_input{
+	border-radius:10px;
+}
+
+.text_menu{
+	margin-left: 10px;
+}
+
+.delete_action p{
+	font-size: 20px;
+	font-family: viga;
+	text-align: center;
+}
+
+.custom_btn:hover{
+	background-color: #244c66;
+}
+.delete_action p span{
+	color: red;
+}
+/* end custom input */
+
+/* @media dekstop */
+@media (min-width:1200px) {
+	.carousel-caption{
+		top :0;
+		font-size	: 60px;
+		margin-top : 160px;
+		margin-left	: -400px;
+		font-family:viga;
+		word-wrap: break-word;
+		height:200px;
+		text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
+	}
+	.form-horizontal{
+		margin-right: -120px;
+	}
+}
+/* enddekstop */
