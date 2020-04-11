@@ -13,7 +13,7 @@ class Menu extends Controller
 		$temp['title'] = 'Manajemen Menu';
 		$temp['t_header'] = 'Manajemen Menu';
 		$temp['desc'] = 'Description';
-		$temp['bred'] = '</i> Manajemen Menu</a></li><li class="active">Here</li>';
+		$temp['bred'] = '</i> Setting</a></li><li> Manajemen Menu</li><li class="active">Here</li>';
 		$temp['contents'] = view('menu/menu_view', $data);
 		return view('template_view',$temp);
 	}
