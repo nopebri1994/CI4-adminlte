@@ -4,8 +4,15 @@
 		font-style: normal;
 		font-weight: 500;
 		font-family:viga;
+		color:white;
 	}
 	
+.custom_header{
+	margin-top: 15px;
+}
+
+
+
 /* form-login */
 .gambar_login{
 	background-color: #cccccc;

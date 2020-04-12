@@ -87,16 +87,14 @@ desired effect
       <!-- Navbar Right Menu -->
       <div class="navbar-custom-menu">
         <ul class="nav navbar-nav">
-          
+    
 		  <!-- jam_digital-->  
-		  <li class="dropdown messages-menu">
+      <li class="messages-menu custom_header">
             <!-- Menu toggle button -->
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
               <i class="jam_digital" id="jam_sekarang"></i>
-            </a>
-           </li>
-		  <!-- end digital -->
-		  
+          </li>
+      <!-- end digital -->
+      		  
           <li class="dropdown messages-menu">
             <!-- Menu toggle button -->
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
